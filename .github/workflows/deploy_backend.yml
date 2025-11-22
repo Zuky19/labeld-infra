@@ -1,3 +1,11 @@
+name: Placeholder Backend Deploy Workflow
+
 on:
   workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Backend deploy workflow placeholder (not active yet)"
 
